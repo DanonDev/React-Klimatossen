@@ -1,15 +1,17 @@
 import './App.scss';
-import Header from './Components/Header/header.jsx';
+import { Section } from './Components/Parts/Content/main';
+import { Header } from './Components/Parts/Header/header.jsx'
+import { Nav, Navigation } from './Components/Parts/Navigation/nav';
 
 function App() {
   return (
     <div className="App">
       <Header  
-        pageundertxt="KLIMA-TOSSEN.DK"
         cleantxt="Clean Up" 
-        cleanudertxt="Hvad kan du gøre for at mindske din påvirkning af miljøet og naturen?"
-        />
-
+        cleanudertxt="Hvad kan du gøre for at mindske din påvirkning af miljøet og naturen?"/>
+        <Nav data={Navigation} /> 
+        <Section/>
+        
     </div>
   );
 }

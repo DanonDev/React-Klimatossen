@@ -1,0 +1,39 @@
+@import '../../pagecolors/colors.scss';
+
+header {
+    height: 500px;
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    text-align: end;
+    background-image: url('../../images/Bg-Hero-Blue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        .top{
+            text-align: start;
+            margin: 30px;
+        }
+        
+        h2{
+            font-size: 70px;
+            padding-right: 50px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            color: $textbl;
+        }
+        p {
+        text-align: end;
+        color: $textbl;
+        font-size: 50px;
+        width: 55%;
+        margin-left: 44%;
+        font-style: italic;
+        font-weight: lighter;
+        letter-spacing: -1px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    }
+
