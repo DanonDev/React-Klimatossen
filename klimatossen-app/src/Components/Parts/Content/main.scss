@@ -84,6 +84,7 @@
 
     h1{
         padding-left: 30px;
+        padding-bottom: 30px;
         font-size: 70px;
         font-weight: lighter;
         color: $white;
@@ -97,20 +98,20 @@
 
         .picture{
             position: relative;
-            padding: 20px;
-            width: 28%;
+            width: 30%;
+            padding-bottom: 50px;
 
             .image1{
                 position: relative;
-                width: 500px;
+                width: 90%;
                 object-fit: cover;
             }
 
             .image2{
                 position: absolute;
-                width: 500px;
-                top: 20px;
-                left: 20px;
+                width: 90%;
+                top: 0px;
+                left: 0px;
                 opacity: 0%;
                 transition: .5s ease;
                 object-fit: cover;
