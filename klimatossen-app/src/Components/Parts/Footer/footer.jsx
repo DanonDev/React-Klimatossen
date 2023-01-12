@@ -1,4 +1,5 @@
 import './footer.scss'
+import './footermobile.scss'
 // import FotImg from '../../images/Logo.png'
 
 const Footer = () => {

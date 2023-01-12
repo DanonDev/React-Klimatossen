@@ -1,4 +1,6 @@
 import './main.scss'
+import './mainmobile.scss'
+
 import Dump from '../../images/Image-Dump.jpg'
 import Spacer4 from '../../images/Spacer-04.png'
 

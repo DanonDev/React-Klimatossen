@@ -1,4 +1,5 @@
 import './nav.scss'
+import './navmobile.scss'
 
 const Navigation = [
     'START',

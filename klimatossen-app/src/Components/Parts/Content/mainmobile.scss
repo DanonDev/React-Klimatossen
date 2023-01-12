@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    .firstsection{
+
+        p{
+            font-size: 25px;
+            padding: 20px;
+            padding-top: 0;
+        }
+    }
+    .secondsection{
+        h1{
+            font-size: 40px;
+        }
+
+        .grid{
+            grid-template-columns: 1fr;
+
+            .secondsectiontext{
+                
+                h3{
+                    font-size: 25px;
+                    margin-bottom: 0;
+                }
+
+                p{
+                    font-size: 20px;
+                    margin-left: 0px;
+                    padding: 30px;
+                    padding-bottom: 0;
+                    margin-bottom: 10px;
+                }
+
+            }
+    
+            img{
+                padding: 50px;
+                margin: 0px;
+                width: 100%;
+            }
+        }
+    
+    }
+    
+    .thirdsection {
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+    
+            .images{
+                display: grid;
+                grid-column: 1fr;
+    
+                .picture {
+                    width: 100%;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-bottom: 20px;
+                }
+            }
+        
+    }
+}

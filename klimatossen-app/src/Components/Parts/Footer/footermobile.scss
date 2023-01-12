@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 600px) {
+    .mrfooter{
+        display: grid;
+        grid-template-columns: 1fr; 
+        text-align: center;
+
+        .leftside{
+            padding: 0px;
+
+            h2{
+                padding-top: 30px;
+            }
+
+            h1{
+                font-size: 70px;
+                letter-spacing: -1px;
+            }
+        }
+
+        .rightside{
+            align-items: center;
+            width: 100%;
+            padding: 30px;
+
+            h2{
+                font-size: 30px;
+            }
+            form{
+                div{
+
+                    label{
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    } 
+}    

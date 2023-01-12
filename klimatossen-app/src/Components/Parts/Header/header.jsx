@@ -1,4 +1,5 @@
 import './header.scss'
+import './headermobile.scss'
 import logo from '../../images/KT-Logo.png'
 
 const Header = props => {
