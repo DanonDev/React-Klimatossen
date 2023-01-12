@@ -99,22 +99,26 @@
         .picture{
             position: relative;
             width: 30%;
+        padding-left: 25px;
+            padding-right: 25px;
             padding-bottom: 50px;
 
             .image1{
                 position: relative;
-                width: 90%;
+                width: 100%;
                 object-fit: cover;
             }
 
             .image2{
                 position: absolute;
-                width: 90%;
+                width: 100%;
                 top: 0px;
                 left: 0px;
                 opacity: 0%;
                 transition: .5s ease;
                 object-fit: cover;
+                padding-left: 25px;
+                padding-right: 25px;
             }
 
             .image2:hover {

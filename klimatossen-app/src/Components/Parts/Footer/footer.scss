@@ -1,0 +1,129 @@
+@import '../../pagecolors/colors.scss';
+
+.mrfooter{
+    background-color: $darkblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+
+    .leftside{
+        padding: 30px;
+        padding-left: 70px;
+
+        h1{
+            font-size: 80px;
+            letter-spacing: -1px;
+            color: $white;
+            padding-top: 20px;
+            span{
+                color: $ligthblue;
+            }
+        }
+
+        h2{
+            color: $white;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .mrh2 {
+            padding-bottom: 20px;
+        }
+
+        p{
+            color: $white;
+            font-size: 22px;
+            font-weight: lighter;
+            letter-spacing: -1px;
+        }
+
+        .link {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .rightside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        padding-left: 70px;
+        width: 600px;
+
+        h2{
+            color: $white;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            input {
+                width: 500px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 7px;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                color: $white;
+                background-color: $ligthblue;
+                border: none;
+                font-size: 17px;
+                font-weight: lighter;
+            }
+
+            ::placeholder{
+                color: $white;
+
+            }
+            // removing side arrows
+            input[type=number]::-webkit-outer-spin-button,
+            input[type=number]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+
+            input:focus {
+                outline: none;
+                opacity: 50%;
+            }
+
+            div{
+                display: flex;
+                justify-content: space-between;
+                label{
+                    color: $white;
+                    font-size: 25px;
+                    font-weight: lighter;
+                }
+                input[type=checkbox]{
+                    width: 35px;
+                    height: 35px;
+                    accent-color: $ligthblue;
+                    cursor: pointer;
+                }
+                input[type=checkbox]:focus {
+                    outline: none;
+                    opacity: 100%;
+                }
+            }
+
+            button {
+                width: 500px;
+                color: $white;
+                background-color: $lightsalat;
+                border: none;
+                margin-top: 10px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            button:hover{
+                background-color: $darksalat;
+            }
+        }
+    }
+}
